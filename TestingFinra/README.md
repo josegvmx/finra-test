@@ -15,3 +15,4 @@ Create a JUnit test configuration, select EndToEnd.groovy file and run
 * Fully integrate spring boot test to be able to use profiling for different environment, so the tests can be used across all develop environments.
 * Integrate Categories to be able to select test run for smoke, endtoend, slow,fast tests
 * Add test to CI/CD in jenkins and execute them using gradle   
+* Create a share commons project to place all the API objects(json request, json responses), so we can reuse the same objects than the backend team and avoid duplication of code.
