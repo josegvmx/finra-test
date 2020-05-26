@@ -9,9 +9,9 @@ The test validates the request response codes and some contents on the json resp
 
 #How to Run
 **From IDE**
-Create a JUnit test configuration, select end to end task
+Create a JUnit test configuration, select EndToEnd.groovy file and run
 
 #TODO
-* Fully integrate spring boot tes to be able to use profiling for different environment, so the tests can be used across all develop environments.
+* Fully integrate spring boot test to be able to use profiling for different environment, so the tests can be used across all develop environments.
 * Integrate Categories to be able to select test run for smoke, endtoend, slow,fast tests
 * Add test to CI/CD in jenkins and execute them using gradle   
