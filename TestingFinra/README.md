@@ -1,4 +1,5 @@
 README End to End
+
 #Description
 **EndToEnd.groovy - test the request of a new deck and draw cards from a deck for the deckofcardsapi Api
 **These are the endpoint it hits:
@@ -8,12 +9,12 @@ README End to End
 The test validates the request response codes and some contents on the json response, there is also a test for negative scenarios
 
 #How to Run
+
 ##From IDE
 - Make sure TestingFinra/test/groovy is market as a test sources directory
 - Create a JUnit test configuration for EndToEnd.groovy for each environment with the following environment variables:
 spring.profiles.active=qa
 - Run EndToEnd as that Junit configured test
-
 
 ##Gradle
 - Run the test usin the gradle or gradle wrapper(gradlew) command providing the environment variable: spring.profiles.active
