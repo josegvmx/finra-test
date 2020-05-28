@@ -15,7 +15,7 @@ The test validates the request response codes and some contents on the json resp
 - Create a JUnit test configuration for EndToEnd.groovy for each environment with the following environment variables:
 spring.profiles.active=qa
 - Run EndToEnd as that Junit configured test
-- Please check the file Test-Run-Junit.png for reference
+- Please check the file Test-Run-Junit.png and Finra-Test-results.jpg for reference
 
 ##Gradle
 - Run the test usin the gradle or gradle wrapper(gradlew) command providing the environment variable: spring.profiles.active
