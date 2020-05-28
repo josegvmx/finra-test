@@ -8,8 +8,16 @@ README End to End
 The test validates the request response codes and some contents on the json response, there is also a test for negative scenarios
 
 #How to Run
-**From IDE**
-Create a JUnit test configuration, select EndToEnd.groovy file and run
+##From IDE
+- Make sure TestingFinra/test/groovy is market as a test sources directory
+- Create a JUnit test configuration for EndToEnd.groovy for each environment with the following environment variables:
+spring.profiles.active=qa
+- Run EndToEnd as that Junit configured test
+
+##Gradle
+- Run the test usin the gradle or gradle wrapper(gradlew) command providing the environment variable: spring.profiles.active
+-Example: ./gradlew test -Dspring.profiles.active=dev or ./gradlew test -Dspring.profiles.active=qa
+
 
 #TODO
 * Fully integrate spring boot test to be able to use profiling for different environment, so the tests can be used across all develop environments.
