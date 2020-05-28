@@ -14,10 +14,10 @@ The test validates the request response codes and some contents on the json resp
 spring.profiles.active=qa
 - Run EndToEnd as that Junit configured test
 
+
 ##Gradle
 - Run the test usin the gradle or gradle wrapper(gradlew) command providing the environment variable: spring.profiles.active
 -Example: ./gradlew test -Dspring.profiles.active=dev or ./gradlew test -Dspring.profiles.active=qa
-
 
 #TODO
 * Fully integrate spring boot test to be able to use profiling for different environment, so the tests can be used across all develop environments.
